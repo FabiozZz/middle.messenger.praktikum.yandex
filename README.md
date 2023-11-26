@@ -16,7 +16,7 @@
 4) [vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) - Плагин для Vite что бы сборщик понимал и парсил файлы шаблонизатора
 5) [Sass](https://sass-lang.com/) - Препроцессор CSS
 
-Проект можно посмотреть [здесь](https://dreamy-yeot-e7992e.netlify.app/)
+Проект можно посмотреть 
 
 ----
 
@@ -28,3 +28,9 @@
 
 3) ` npm run start ` - комбинация вызовов ` npm run build ` и ` node ./server.js `, собирается проект и запускается локальный сервер на ` express ` для раздачи статики, после выполнения этой команды сайт будет доступен по адресу http://127.0.0.1:3000/ или http://localhost:3000/
 
+----
+
+### На данный момент есть три активные ветки
+- ` sprint_1 ` - ветка для студента
+- ` deploy ` - пуш в эту ветку тригерит ` Netlify ` и пересобирается [этот сайт](https://dreamy-yeot-e7992e.netlify.app/)
+- ` main ` - ветка для проверки спринтов
