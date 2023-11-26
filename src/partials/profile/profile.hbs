@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="/src/partials/profile/profile.scss">
+<section class="profile">
+
+    {{#> form/form  }}
+        {{#each inputs }}
+            {{> input/input }}
+        {{/each}}
+        {{#> button/button class='success' }}Сохранить{{/button/button }}
+    {{/form/form }}
+
+</section>

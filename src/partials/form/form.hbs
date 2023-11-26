@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/src/partials/form/form.scss">
+<form id="login-form" class="form">
+    <h3>{{title}}</h3>
+    {{> @partial-block }}
+    {{#if disabledLink}}
+        {{#if authLink}}
+            <a class="form-link" href="/src/pages/login/index.html">Уже есть аккаунт</a>
+        {{else}}
+            <a class="form-link" href="/src/pages/signIn/index.html">Нет аккаунта?</a>
+        {{/if}}
+    {{/if}}
+
+</form>

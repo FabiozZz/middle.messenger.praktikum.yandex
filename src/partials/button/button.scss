@@ -1,0 +1,38 @@
+.button {
+  all: unset;
+
+  box-sizing: border-box;
+
+  padding: 8px 16px;
+
+  height: 40px;
+
+  border: 1px solid transparent;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  cursor: pointer;
+
+  transition: background linear 0.2s;
+
+  &-default {
+    background: #FFF;
+    color: #343333;
+    border-color: #343333;
+  }
+
+  &-success {
+    background: rgba(51, 105, 243, 0.7);
+    border-color: #3369F3;
+    color: white;
+  }
+
+  &-error {
+    background: rgba(182, 25, 43, 0.63);
+    border-color: rgb(182, 25, 43);
+  }
+}

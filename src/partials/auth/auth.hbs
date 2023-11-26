@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/src/partials/auth/auth.scss">
+<section class="auth">
+    <img src="/src/assets/telegraph.svg" alt="Logo">
+
+    {{#> form/form }}
+        {{#each inputs }}
+            {{> input/input }}
+        {{/each}}
+        {{#> button/button class='success'}}Войти{{/button/button }}
+    {{/form/form }}
+
+</section>
