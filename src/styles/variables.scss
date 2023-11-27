@@ -1,0 +1,29 @@
+/* Button colors */
+
+/* Default */
+$bgButtonDef:#FFF;
+$colorButtonDef:#343333;
+$borderButtonDef:#343333;
+/* ------- */
+
+/* Success */
+$bgButtonSuccess:rgba(51, 105, 243, 0.7);
+$colorButtonSuccess:white;
+$borderButtonSuccess:#3369F3;
+/* ------- */
+
+/* Error */
+$bgButtonErr:rgba(182, 25, 43, 0.63);
+$colorButtonErr:white;
+$borderButtonErr:rgb(182, 25, 43);
+/* ------- */
+
+/* Input colors */
+
+$inputDefBorder: gray;
+$inputDefBorderFocus: $borderButtonSuccess;
+$inputDefBorderHover: black;
+
+/* Other */
+
+$boxShadow: 2px 2px 10px 3px black;
