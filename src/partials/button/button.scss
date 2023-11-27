@@ -1,0 +1,40 @@
+@import "/src/styles/variables";
+.button {
+  all: unset;
+
+  box-sizing: border-box;
+
+  padding: 8px 16px;
+
+  height: 40px;
+
+  border: 1px solid transparent;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  cursor: pointer;
+
+  transition: background linear 0.2s;
+
+  &-default {
+    background: $bgButtonDef;
+    color: $colorButtonDef;
+    border-color: $borderButtonDef;
+  }
+
+  &-success {
+    background: $bgButtonSuccess;
+    color: $colorButtonSuccess;
+    border-color: $borderButtonSuccess;
+  }
+
+  &-error {
+    background: $bgButtonErr;
+    color: $colorButtonErr;
+    border-color: $borderButtonErr;
+  }
+}

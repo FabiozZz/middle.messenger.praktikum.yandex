@@ -1,0 +1,18 @@
+@import "/src/styles/variables";
+.input-form{
+  all:unset;
+  padding: 4px 8px;
+  border-bottom: 1px solid $inputDefBorder;
+  cursor: text;
+
+  height: 40px;
+
+  transition: border-color linear 0.2s;
+
+  &:hover{
+    border-color: $inputDefBorderHover;
+  }
+  &:focus{
+    border-color: $inputDefBorderFocus;
+  }
+}

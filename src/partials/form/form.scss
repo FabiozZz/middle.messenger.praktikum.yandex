@@ -1,0 +1,14 @@
+@import "/src/styles/variables";
+.form{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 30px;
+  box-shadow: $boxShadow;
+  //border: 1px solid black;
+  border-radius: 8px;
+  button{
+    margin-top: 30px;
+  }
+}
