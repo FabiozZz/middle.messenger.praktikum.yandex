@@ -3,6 +3,7 @@ import handlebars from 'vite-plugin-handlebars';
 import {defineConfig} from 'vite';
 import {resolve} from 'path';
 import {pageData} from "./src/mock/signingData.js";
+import checker from "vite-plugin-checker";
 
 export default defineConfig({
     build: {
@@ -25,6 +26,9 @@ export default defineConfig({
             return pageData[pagePath]
         }
 
-    })],
+    }),checker({
+        // e.g. use TypeScript check
+        typescript: true,
+    }),],
 });
 
